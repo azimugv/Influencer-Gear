@@ -78,6 +78,16 @@ font-weight: 700;
     padding: 10px;
 }
 
+/* Partners */
+.partner-containers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    border-top: 0.5px solid rgb(185, 185, 185);
+    border-bottom: 0.5px solid rgb(185, 185, 185);
+}
+
 
 
 /* Media Queries */
@@ -86,11 +96,15 @@ font-weight: 700;
     body{
     margin: 20px;
     }
-.header, .banner {
+.header, .banner, .partner-containers {
     flex-direction: column;
 }
 .banner{
     text-align: center;
+}
+.partner-containers{
+    height: auto;
+    border: none;
 }
 
 }
