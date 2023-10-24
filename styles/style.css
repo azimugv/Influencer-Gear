@@ -156,6 +156,31 @@ font-size: 16px;
 font-weight: 700;
 }
 
+/* CAll to action */
+
+.call-to-action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+
+.call-to-action-img {
+    width: 60%;
+}
+
+.call-t-action-text h1{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.call-t-action-text p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /* Media Queries */
 
 @media screen and (max-width:576px) {
@@ -175,7 +200,12 @@ font-weight: 700;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
-    
+    .call-to-action{
+        flex-direction: column-reverse;
+    }
+    .call-to-action-img {
+        width: 100%;
+    }
 
 
 }
