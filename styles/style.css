@@ -1,4 +1,9 @@
-body {
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header, main {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     max-width: 1440px;
@@ -179,6 +184,27 @@ font-weight: 700;
     color: #6C6C6C;
     font-size: 16px;
     font-weight: 700;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #0A0826;
+    height: 240px;
+    text-align: center;
+    padding: 50px;
+}
+footer h3{
+    color: #FFF;
+font-size: 24px;
+font-weight: 700;
+}
+footer p{
+    color: #D9DBE1;
+font-size: 14px;
+font-weight: 700;
+}
+footer p i{
+    padding: 10px;
 }
 
 /* Media Queries */
